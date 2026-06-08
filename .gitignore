@@ -1,0 +1,32 @@
+# Dataset (do NOT commit dataset files)
+dataset/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Model and large binary files
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.pb
+
+# Environment files and credentials
+.env
+kaggle.json
+
+# Mac / Windows metadata
+.DS_Store
+Thumbs.db
